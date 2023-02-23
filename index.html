@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8278948c00.js" crossorigin="anonymous"></script>
+<body>
+    <div class="container">
+        <div><h2>Payment form example</h2></div>
+        <div>
+            <div class="alert alert-danger" role="alert">
+                Some Fields are missing
+            </div>
+        </div>
+        <div>
+          <!--Tarjeta-->
+            <fieldset>
+                <div class="row" >
+                <div class="col-4" >
+                    <label for="formGroupExampleInput" class="form-label">Card#</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="XXXXXXXXXXXXXX">
+                  </div>
+                  <div class="col-4">
+                    <label for="formGroupExampleInput2" class="form-label">CVC</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="0000">
+                  </div>
+                  <div class="col-4">
+                    <label for="formGroupExampleInput2" class="form-label">Amount</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="$ Amount">
+                  </div>
+
+                </div>
+            </fieldset>
+        </div>
+        <br>
+         <!--Datos Personales-->
+        
+         <div class="d-flex" >
+           
+          <div class="row" style="margin-right: 5px;">
+            <fieldset>
+            <div class="col-12">
+                <label for="formGroupExampleInput" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="col-12">
+                <label for="formGroupExampleInput2" class="form-label">City</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+              </div>
+            </fieldset>
+              <div class="col-4">
+              <fieldset >
+                We accept:
+                <div class="row" >
+                    <div class="col" style="background-color: grey; border-radius: 5px; padding: 2%; text-align: center;">
+                        <input type="radio" id="card1" name="fav_language" value="card1">
+                        <label for="card1"><i class="fa-brands fa-cc-visa"></i></label>
+                        <input type="radio" id="card2" name="fav_language" value="card2">
+                        <label for="card1"><i class="fa-brands fa-cc-mastercard"></i></label>
+                        <input type="radio" id="card2" name="fav_language" value="card2">
+                        <label for="card1"><i class="fa-brands fa-cc-amex"></i></label>
+                        <input type="radio" id="card2" name="fav_language" value="card2">
+                        <label for="card1"><i class="fa-brands fa-cc-diners-club"></i></label>
+              </fieldset>
+            </div>
+            </div>
+          
+           
+            <div class="row">
+              <fieldset>
+              <div class="col-12">
+                  <label for="formGroupExampleInput" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                </div>
+              </fieldset>
+              
+                <div class="col-6">
+                  <label for="formGroupExampleInput2" class="form-label">State</label>
+                  
+                  <select class="form-select"  aria-label="Default select example">
+                    <option selected>Pick a State</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              
+                <div class="col-6">
+                  <label for="formGroupExampleInput2" class="form-label">Postal Code</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                </div>
+                
+                <fieldset>
+                  
+                  
+                      <div class="col-12" style="margin-top: 20px;">
+
+                        <div class="form-floating">
+                          <label for="floatingTextarea"></label>Message
+                          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                          <div id="emailHelp" class="form-text">Add any notes here.</div>
+                    
+                       
+                          
+                </fieldset>
+              </div>
+            </div>
+<br>
+            <div class="d-flex justify-content-end">
+              <div class="row">
+
+              <div class="col-6">
+                
+                <button type="button" class="btn btn-secondary">Cancel</button>
+
+              </div>
+              <div class="col-6">
+                <button class="btn btn-primary" type="submit">Send</button>
+              </div>
+
+
+
+            </div>
+              
+            </div>
+          
+    
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
